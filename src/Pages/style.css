@@ -1,0 +1,238 @@
+.createMuseumForm,.loginForm,.createTicketForm {
+  width: 50%;
+  margin-top: 100px;
+  justify-content: space-evenly;
+  margin-left: 25%;
+  margin-right: 25%;
+
+     }
+
+  
+  .inputText {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 85%;
+    padding-right: 5px;
+    padding-left: 10px;
+    border-radius: calc(0.5 * 100px);
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.38);
+    margin-bottom: 3%;
+    display: block;
+     }
+  .searchText{
+    font-size: 1rem;
+    font-weight: 400;
+    width: 30%;
+    border-radius: calc(0.5 * 100px);
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.38);
+    margin-bottom: 3%;
+    margin-top: 1%;
+    margin-left: 40%;
+  }
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .inputText::placeholder {
+    color: #000;
+     }
+  
+  .inputSubmit,.inputLogin{
+    background: darkolivegreen;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: calc(0.5 * 100px);
+    width: 20%;
+    max-width: 50%;
+    margin-bottom: 5%;
+    margin-left : 40%;
+    margin-right: 40%;
+    margin-top: 2%;
+
+     }
+ .searchSubmit{
+  background: darkolivegreen;
+  color: white;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: calc(0.5 * 100px);
+  width: 5%;
+  max-width: 5%;
+  margin-left : 3px;
+  margin-right: 40%;
+  margin-bottom: 3%;
+  margin-top: 1%;
+     }
+  .inputLogin{
+    margin-left: 30%;
+  }
+
+
+.inputSignUpPage {
+  background: darkolivegreen;
+  color: white;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: calc(0.5 * 100px);
+  width: 20%;
+  max-width: 50%;
+  margin-bottom: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  margin-left: 35%;
+}
+
+
+
+  .inputText,
+  .inputSubmit, .searchText,.searchSubmit,.inputLogin,.inputSignUpPage{
+    height: 45px;
+    outline: none;
+    border: none;
+     }
+     /* .museum {
+        font-size: 1.2rem;
+        list-style-type: none;
+        padding: 17px 0px;
+        border-bottom: 1px solid #eaeaea;
+        display: block;
+        text-align: center;
+        
+      } */
+
+
+  .museum,.order{
+    width: 40%;
+    border: 1px solid; 
+    border-color: darkolivegreen;
+    margin:10px;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px darkolivegreen;
+    /* width: 50%;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid */
+
+  }
+  
+  .museum button{
+    margin-bottom: 1rem;
+  }
+  .museumList,.orderList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+
+
+  /* .ticket{
+    width: 40%;
+    border: 1px solid; 
+    border-color: darkolivegreen;
+    margin:10px;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px darkolivegreen;
+  } */
+  .ticketPage{
+    margin: auto;
+    width: 70%;
+    box-shadow: 0px 0px 10px darkolivegreen;
+  }
+  .ticket,.signUpText{
+    font-size: 1.2rem;
+    list-style-type: none;
+    padding: 17px 0px;
+    border-bottom: 1px solid #eaeaea;
+
+  }
+  .navBar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    background-color: darkolivegreen;
+}
+.navBar li{
+  color: white;
+}
+
+/* li {
+    display: inline-block;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-top: 3vh;
+} */
+.quantity-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sold-tickets-table {
+  border-collapse: collapse;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 10%;
+}
+
+.sold-tickets-table th,
+.sold-tickets-table td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.sold-tickets-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+.ticket-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 10px;
+  margin: 0 auto;
+}
+
+.ticket-row {
+  background-color: #f1f1f1;
+}
+
+.ticket-table th,
+.ticket-table td {
+  padding: 10px;
+}
+
+.amount-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.amount-button {
+  padding: 5px 10px;
+  margin: 0 5px; 
+}
+
+.amount-input {
+  width: 50px;
+  text-align: center;
+}
+.ticketPage{
+  margin-top: 2%;
+}
+.signUpText{
+ color: black;
+margin-right: 9%;
+}
+
+   
+    
+    

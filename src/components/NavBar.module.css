@@ -1,0 +1,24 @@
+.navBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding-right: 5%;
+    padding-left: 5%;
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover {
+    font-weight: bolder;
+    color: black;
+  }
